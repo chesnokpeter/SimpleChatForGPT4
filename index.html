@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple chat for gpt4</title>
+    <link href="{{ url_for('static', filename='./style.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="input-box">
+        <button class="send">Send</button>
+        <input class="input" type="text">
+        <button class="delete">Delete chat</button>
+        <a href="https://github.com/chesnokpeter/SimpleChatForGPT4" class="by">by_chesnok</a>
+        <hr>
+    </div>
+    <div style="white-space: pre-line;" id="chat" class="chat"></div>
+
+</body>
+<script type="module" src="{{ url_for('static', filename='./main.js') }}"></script>
+</html>

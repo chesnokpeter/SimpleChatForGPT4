@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+input {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+}
+
+.chat {
+    color: white;
+}
+
+.you {
+    color: rgb(255, 146, 146);
+}
+
+.gpt {
+    color: rgb(146, 188, 255);
+}
+
+.input {
+    width: calc(100vw - 300px);
+}
+
+.by {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
